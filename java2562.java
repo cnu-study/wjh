@@ -9,7 +9,12 @@ public class java2562 {
         for (int i = 0; i < 9; i++) {
             a [i] = sc.nextInt();
         }
-        int b [] = a;
+        int b [] = new int[9];
+        for (int i = 0; i < 9 ; i++) {
+            b[i] = a[i];
+            
+        }
+
         Arrays.sort(a);
         System.out.println(a[8]);
         for (int i = 0; i < 9; i++) {
